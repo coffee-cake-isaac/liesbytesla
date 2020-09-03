@@ -3099,7 +3099,8 @@ body.is-menu-visible #menu .close {
 
 .modal-dialog,
 .modal-content {
-	height: 80%;
+	height: 120%;
+	max-height: 800px;
 }
 
 
@@ -3168,4 +3169,5 @@ body.is-menu-visible #menu .close {
 
 .modal-body {
 	height: 120%;
+	max-height: 800px;
 }
