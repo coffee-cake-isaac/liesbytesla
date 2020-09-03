@@ -3117,6 +3117,12 @@ body.is-menu-visible #menu .close {
 	border-radius: 0px;
 }
 
+.thumbnail :hover
+{
+	filter: brightness(50%);
+}
+
+
 .item.list-group-item {
 	float: none;
 	width: 80%;
