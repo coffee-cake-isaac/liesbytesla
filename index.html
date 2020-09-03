@@ -123,18 +123,20 @@
 			$('#exampleModal .modal-body').load('https://liesbytesla.com/2020361.html');
 			$('#exampleModal').scroll()
 			$('#exampleModal').show({ modal: true })
+			$('#exampleModal').modal('handleUpdate')
 		});
 
 		$('.article2').on('click', function () {
 			$('#exampleModal .modal-body').load('https://liesbytesla.com/featurewithholding.html');
 			$('#exampleModal').scroll()
 			$('#exampleModal').show({ modal: true })
+			$('#exampleModal').modal('handleUpdate')
 		});
 	</script>
 	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
 		aria-hidden="true">
-		<div class="modal-dialog modal-lg modal-dialog-centered" role="document" style="width:90%; max-width:1500px">
-			<div class="modal-content" style="width:90%;max-width:1500px">
+		<div class="modal-dialog  modal-dialog-centered" role="document" style="width:99%; max-width:1500px">
+			<div class="modal-content">
 				<div class="modal-header">
 					<h5 class="modal-title" id="exampleModalLabel"></h5>
 					<p class="modal-title" id="modalLabelSubtitle"></p>
