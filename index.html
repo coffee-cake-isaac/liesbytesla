@@ -99,6 +99,18 @@
 							</div>
 						</a>
 					</article>
+					<article id="thirdArticle" class="style9 article3" data-toggle="modal" data-target="#exampleModal">
+						<span class="image">
+							<img src="images/pic09.jpg" alt="" />
+						</span>
+						<a href="#">
+							<h2>The Story of the Standard Range Model Y</h2>
+							<div class="content">
+								<p>Tesla pretends to offer a Standard Range Model Y variant starting at $39,000
+								</p>
+							</div>
+						</a>
+					</article>
 				</section>
 			</div>
 		</div>
@@ -184,6 +196,13 @@
 
 		$('.article2').on('click', function () {
 			$('#exampleModal .modal-body').load('https://liesbytesla.com/featurewithholding.html');
+			$('#exampleModal').scroll()
+			$('#exampleModal').show({ modal: true })
+			$('#exampleModal').modal('handleUpdate')
+		});
+
+		$('.article3').on('click', function () {
+			$('#exampleModal .modal-body').load('https://liesbytesla.com/modelystandardrangepoof.html');
 			$('#exampleModal').scroll()
 			$('#exampleModal').show({ modal: true })
 			$('#exampleModal').modal('handleUpdate')
