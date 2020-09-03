@@ -3167,6 +3167,10 @@ body.is-menu-visible #menu .close {
 	margin: 0 0 11px;
 }
 
+.modal {
+	margin-right: 10px;
+}
+
 .modal-body {
 	height: 90%;
 	max-height: 680px;
