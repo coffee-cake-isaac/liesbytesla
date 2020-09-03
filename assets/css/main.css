@@ -3102,9 +3102,6 @@ body.is-menu-visible #menu .close {
 	height: 80%;
 }
 
-.modal-body {
-	height: 80%;
-}
 
 .glyphicon {
 	margin-right: 5px;
@@ -3167,4 +3164,8 @@ body.is-menu-visible #menu .close {
 
 .list-group-item-text {
 	margin: 0 0 11px;
+}
+
+.modal-body {
+	height: 120%;
 }
