@@ -1413,6 +1413,7 @@ hr.major {
 	}
 	.row>* {
 		box-sizing: border-box;
+		padding: 0px 1em 0 1em
 	}
 	.row.gtr-uniform>*> :last-child {
 		margin-bottom: 0;
@@ -1554,7 +1555,7 @@ hr.major {
 		margin-left: -1em;
 	}
 	.row>* {
-		padding: 0 0 0 1em;
+		padding: 0 1em 0 1em;
 	}
 	.row.gtr-uniform {
 		margin-top: -1em;
@@ -3110,7 +3111,6 @@ body.is-menu-visible #menu .close {
 }
 
 .thumbnail {
-	margin-bottom: 20px;
 	padding: 0px;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
@@ -3119,7 +3119,7 @@ body.is-menu-visible #menu .close {
 
 .item.list-group-item {
 	float: none;
-	width: 100%;
+	width: 80%;
 	background-color: #fff;
 	margin-bottom: 10px;
 }
@@ -3161,10 +3161,4 @@ body.is-menu-visible #menu .close {
 
 .list-group-item-text {
 	margin: 0 0 11px;
-}
-a.fill-div {
-    display: block;
-    height: 100%;
-    width: 100%;
-    text-decoration: none;
 }
