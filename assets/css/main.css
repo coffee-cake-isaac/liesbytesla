@@ -3168,7 +3168,7 @@ body.is-menu-visible #menu .close {
 }
 
 .modal {
-	margin-right: 15px;
+	padding-right: 15px;
 }
 
 .modal-body {
