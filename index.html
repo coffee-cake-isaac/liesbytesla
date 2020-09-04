@@ -74,7 +74,10 @@
 						<span class="image">
 							<img src="images/pic01.jpg" alt="" />
 						</span>
-						<a href="#tiles">
+						<a href="#tiles" onclick="gtag('event', 'article click', {
+							'event_category': 'article_load',
+							'event_label': '2020361'
+						});">
 							<h2>Tesla pretends HW2.5 can no longer get updates - This web dev</h2>
 							<div class="content">
 								<p>"We are excited to announce that, as of today, all Tesla vehicles produced in our
@@ -164,10 +167,6 @@
 			$('#exampleModal').scroll()
 			$('#exampleModal').show({ modal: true })
 			$('#exampleModal').modal('handleUpdate')
-			gtag('event', 'article click', {
-				'event_category': 'article_load',
-				'event_label': '2020361'
-			});
 		});
 
 		$('.article2').on('click', function () {
