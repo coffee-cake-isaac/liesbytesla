@@ -3163,9 +3163,14 @@ body.is-menu-visible #menu .close {
 
 
 .modal-body,
-.modal-dialog,
-.modal-content {
+.modal-dialog{
 	height: 90%;
+	width: 98%;
+	margin: 1%;
+}
+
+.modal-content{
+	height: 100%;
 	width: 98%;
 	margin: 1%;
 }
