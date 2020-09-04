@@ -3097,12 +3097,6 @@ body.is-menu-visible #menu .close {
 	}
 }
 
-.modal-dialog,
-.modal-content {
-	height: 90%;
-	max-height: 680px;
-}
-
 
 .glyphicon {
 	margin-right: 5px;
@@ -3167,11 +3161,11 @@ body.is-menu-visible #menu .close {
 	margin: 0 0 11px;
 }
 
-.modal {
-	padding-right: 15px;
-}
 
-.modal-body {
+.modal-body,
+.modal-dialog,
+.modal-content {
 	height: 90%;
-	max-height: 680px;
+	width: 100%;
+	padding: 1%;
 }
