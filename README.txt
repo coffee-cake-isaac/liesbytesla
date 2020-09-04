@@ -1,30 +1,12 @@
-Phantom by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+https://liesbytesla.com
 
+Lies by Tesla
+A detailed account of all the lies that Elon Musk or Tesla have claimed over the years, highlighting their lack of customer service, their half-assed attempts to shift accountablity to others and pretending like they can do no wrong because they're a "green" company.
 
-This is Phantom, a simple design built around a grid of large, colorful, semi-interactive
-image tiles (of which you can have as many or as few as you like). Makes use of some
-SVG and animation techniques I've been experimenting with on that other project of mine
-you may have heard about (https://carrd.co), and includes a handy generic page for whatever.
+This website is constantly being updated and you may see placeholder items in place. Yes, I know it's there. They'll get phased out as the website presence is built up.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+"Oh my god. You used a theme?! Are you even a developer?!?!!!?111?!@" - You, probably.
 
-(* = not included)
+But to answer that question, yes. But I have a full time job and a family. I don't have time to fuck with this shit 24/7. Get over it.
 
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+I do want to point something out: I like my car. I like the ideas of EVs. I like the idea of cars getting better over time. But Tesla has been spewing bullshit for far too long and it's time someone makes it blatantly obvious.
