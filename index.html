@@ -164,6 +164,10 @@
 			$('#exampleModal').scroll()
 			$('#exampleModal').show({ modal: true })
 			$('#exampleModal').modal('handleUpdate')
+			gtag('event', 'article click', {
+				'event_category': 'article_load',
+				'event_label': '2020361'
+			});
 		});
 
 		$('.article2').on('click', function () {
