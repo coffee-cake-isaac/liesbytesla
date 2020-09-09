@@ -2,29 +2,27 @@
 <html>
 
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<title>Lies by Tesla</title>
+	<meta name="description"
+		content="A detailed account of all the lies that Elon Musk or Tesla have claimed over the years">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="icon" type="image/png" href="images/favicon-32x32.png">
+	<link rel="stylesheet" href="assets/css/main.css" />
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170787821-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
 		function gtag() { dataLayer.push(arguments); }
 		gtag('js', new Date());
-
 		gtag('config', 'UA-170787821-1');
 	</script>
-	<title>Lies by Tesla</title>
-	<meta name="description"
-		content="A detailed account of all the lies that Elon Musk or Tesla have claimed over the years">
-	<meta charset="utf-8" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	<script data-ad-client="ca-pub-6568844579545954" async
 		src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<link rel="icon" type="image/png" href="images/favicon-32x32.png">
 	<script type="text/javascript">
 		var _iub = _iub || [];
 		_iub.csConfiguration = { "ccpaAcknowledgeOnDisplay": true, "whitelabel": false, "lang": "en", "siteId": 1998603, "countryDetection": true, "enableCcpa": true, "cookiePolicyId": 74015341, "banner": { "acceptButtonDisplay": true, "customizeButtonDisplay": true, "acceptButtonColor": "#0073CE", "acceptButtonCaptionColor": "white", "customizeButtonColor": "#DADADA", "customizeButtonCaptionColor": "#4D4D4D", "rejectButtonDisplay": true, "rejectButtonColor": "#0073CE", "rejectButtonCaptionColor": "white", "position": "float-bottom-center", "textColor": "black", "backgroundColor": "white" } };
@@ -36,6 +34,26 @@
 <body class="is-preload">
 	<!-- Wrapper -->
 	<div id="wrapper">
+		<header id="header">
+			<div class="inner">
+				<nav>
+					<ul>
+						<li><a href="#menu">Menu</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<nav id="menu">
+			<h2>Menu</h2>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+				<li><a href="changelist.html">Changelist</a></li>
+				<li><a href="privacypolicy.html">Privacy Policy</a></li>
+			</ul>
+		</nav>
 		<div id="main">
 			<div class="inner">
 				<header>
@@ -43,33 +61,10 @@
 					<p>A detailed account of all the lies that Elon Musk or Tesla have claimed over the years,
 						highlighting their lack of customer service, their half-assed attempts to shift accountablity to
 						others and pretending like they can do no wrong because they're a "green" company.</p>
-					<p>This website is constantly being updated and you may see placeholder items in place. Yes, I know
-						it's there. They'll get phased out as the website presence is built up.</p>
-					<p>"Oh my god. You used a theme?! Are you even a developer?!?!!!?111?!@" - You, probably. </p>
-					<p>But to answer that question, yes. But I have a full time job and a family. I don't have time to
-						fuck with this shit 24/7. Get over it.</p>
-					<p>I do want to point something out: I like my car. I like the ideas of EVs. I like the idea of cars
-						getting better over time. But Tesla has been spewing bullshit for far too long and it's time
-						someone makes it blatantly obvious.</p>
-					<p>If you want to get in touch, <b>email</b> me <a
-							href="mailto:admin@coffeecakestudios.com">here.</a> Or
-						don't. I don't care either way.</p>
-					<p>View our <b>privacy policies</b> by clicking <a href="privacypolicy.html">this</a></p>
-					<p><a href="changelist.html">Here's a <b>changelist</b>. It'll get revamped later. Quick and dirty.
-					</p>
-					</a>
 				</header>
 			</div>
 			<div class="inner">
 				<hr />
-				<!-- Button trigger modal -->
-				<p>So, fuck all that fancy shit. We're just going to have a never ending scrolling website of
-					all the times that Tesla has lied.
-					We'll make sure to highlight when Tesla lied and how to differentiate it from the time of
-					the post.
-					I think it's fair to you all to know that we aren't going to only pull from their latest
-					bullshit, but from the start of their company if we find it relevant.
-				</p>
 				<section class="tiles" id="tiles">
 					<article id="fourthArticle" class="style4 article4" data-toggle="modal" data-target="#exampleModal"
 						data-content="autopilot.html">
@@ -233,14 +228,26 @@
 			</div>
 		</div>
 	</div>
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+	<script type="text/javascript" src="">
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "AIzaSyBnVJYnrV9M56bScGkrv_GStKOR0yShfnQ",
+			authDomain: "liesbytesla.firebaseapp.com",
+			databaseURL: "https://liesbytesla.firebaseio.com",
+			projectId: "liesbytesla",
+			storageBucket: "liesbytesla.appspot.com",
+			messagingSenderId: "817922268984",
+			appId: "1:817922268984:web:f213c51e27310e7277ebcd"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+	</script>
 </body>
-<!-- Modal -->
-<style>
-	.modal-body {
-		height: 90%;
-		max-height: 90%;
-		overflow-y: auto;
-	}
-</style>
 
 </html>
