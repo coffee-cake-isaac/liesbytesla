@@ -2651,7 +2651,7 @@ body.is-touch .tiles article .content {
 }
 
 #header nav {
-	position: fixed;
+	position: absolute;
 	right: 2em;
 	top: 2em;
 }
