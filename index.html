@@ -66,6 +66,24 @@
 			<div class="inner">
 				<hr />
 				<section class="tiles" id="tiles">
+					<article id="fifthArticle" class="style8 article8" data-toggle="modal" data-target="#exampleModal"
+						data-content="competionishere.html">
+						<span class="image">
+							<img src="images/pic08.jpg" alt="tesla_lies_placeholder8" />
+						</span>
+						<a href="#tiles" onclick="gtag('event', 'article click', {
+							'event_category': 'article_load',
+							'event_label': 'lucid'
+						});">
+							<h2>Competition Has Arrived: The Lucid Air by Lucid Motors
+							</h2>
+							<div class="content">
+								<p>We breakdown the Lucid Air and provide a bit of insight on things that may have been
+									glossed over.
+								</p>
+							</div>
+						</a>
+					</article>
 					<article id="fourthArticle" class="style4 article4" data-toggle="modal" data-target="#exampleModal"
 						data-content="autopilot.html">
 						<span class="image">
@@ -207,6 +225,13 @@
 
 		$('.article4').on('click', function () {
 			$('#exampleModal .modal-body').load('autopilot.html');
+			$('#exampleModal').scroll()
+			$('#exampleModal').show({ modal: true })
+			$('#exampleModal').modal('handleUpdate')
+		});
+
+		$('.article5').on('click', function () {
+			$('#exampleModal .modal-body').load('competitionishere.html');
 			$('#exampleModal').scroll()
 			$('#exampleModal').show({ modal: true })
 			$('#exampleModal').modal('handleUpdate')
