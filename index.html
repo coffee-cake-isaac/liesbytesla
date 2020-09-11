@@ -201,6 +201,10 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 	<script>
+		$('#exampleModal').on('hide.bs.modal', function (e) {
+			$('.modal-content').scrollTop(0);
+		});
+
 		$('.article1').on('click', function () {
 			$('#exampleModal .modal-body').load('2020/09/2020361.html');
 			$('#exampleModal').scrollTop(0);
